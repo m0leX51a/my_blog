@@ -8,7 +8,7 @@
 * [Programming languages and Web Concepts](programming-languages-and-web-concepts-83c5a06156274031ae5d9a162b6e55e5.md)
 * [Web security](web-security-ffb7aec737444bed970fadeeae140d78.md)
 * [technologies](technologies-816b5faea7684b41a8427492fe6a267a.md)
-* [👾 whoami](whoami.md)
+* [whoami](whoami.md)
 * [API Security](api-security/README.md)
   * [API Security Fundamentals (APISEC) 11f3c74efb3c80049d2fcd3c6949a98c](api-security/api-security-fundamentals-apisec-11f3c74efb3c80049d2fcd3c6949a98c.md)
 * [Android Security](android-security/README.md)
