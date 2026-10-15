@@ -1,0 +1,11 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: M0lex51a Notes
+  structure:
+    - type: space
+      key: main-notes
+      title: Notes
+      path: notes
+      default: true
+      content:
+        directory: ./M0lex51a Workspace
