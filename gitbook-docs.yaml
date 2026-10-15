@@ -2,10 +2,29 @@ $schema: https://api.gitbook.com/gitbook-docs.yaml
 site:
   title: M0lex51a Notes
   structure:
-    - type: space
-      key: main-notes
+    - type: section
+      key: section-1
+      title: M0lex51a Notes
+      path: m0lex51a-notes
+      default: true
+      children:
+        - type: space
+          key: main-notes
+          title: Notes
+          path: notes
+          default: true
+          content:
+            directory: ./M0lex51a Workspace
+    - type: section
+      key: section-2
       title: Notes
       path: notes
-      default: true
-      content:
-        directory: ./M0lex51a Workspace
+      children:
+        - type: space
+          key: space-1
+          title: Notes
+          path: notes
+          default: true
+          draft: true
+          content:
+            directory: ./M0lex51a Workspace
