@@ -1,0 +1,12 @@
+﻿name
+"HOST HEADER ATTACK "
+"LFI,LFD,PATH TRAVERSAL"
+Insecure Deserialization
+SSRF
+CSRF
+IDOR
+Broken Access Control
+SQLI
+OS Command Injection
+"File Upload vulnerabilities "
+Race Condition

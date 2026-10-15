@@ -1,0 +1,12 @@
+﻿name,Date,Status,Tags
+"HOST HEADER ATTACK ",,Not started,In progress
+"LFI,LFD,PATH TRAVERSAL",,In progress,In progress
+Insecure Deserialization,,Done,Done
+SSRF,,Done,Done
+CSRF,,"practicing ",Done
+IDOR,,Not started,Done
+Broken Access Control,,Not started,Done
+SQLI,,Not started,Done
+OS Command Injection,,Not started,Done
+"File Upload vulnerabilities ",,Not started,Done
+Race Condition,,Not started,Not started
