@@ -15,16 +15,3 @@ site:
           default: true
           content:
             directory: ./M0lex51a Workspace
-    - type: section
-      key: section-2
-      title: Notes
-      path: notes
-      children:
-        - type: space
-          key: space-1
-          title: Notes
-          path: notes
-          default: true
-          draft: true
-          content:
-            directory: ./M0lex51a Workspace
