@@ -1,8 +1,8 @@
-# PHP 7eed48f562354fedb3481e824ee7bdcf
+# PHP language
 
 ## PHP
 
-https://dull-pink-4ba.notion.site/PHP-for-nour-7f54a67e38c442ed9e174033fbbdcb48
+external res : https://dull-pink-4ba.notion.site/PHP-for-nour-7f54a67e38c442ed9e174033fbbdcb48
 
 ## Syntax
 

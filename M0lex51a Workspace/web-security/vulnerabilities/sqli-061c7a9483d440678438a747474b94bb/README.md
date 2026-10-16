@@ -1,8 +1,12 @@
-# SQLI 061c7a9483d440678438a747474b94bb
+---
+description: my whole notes
+---
+
+# SQLI
 
 ## SQLI
 
-Tags: Done Status: Not started
+
 
 [Sqli summary](sqli/sqli-summary-9b9f0ae810b74a80928ad39f18666626.md)
 
@@ -233,7 +237,7 @@ the results of the SQL query are returned directly to the attacker in an HTTP re
 
     used to combine tow query in database (original query, malicious query )
 
-    we will take for example the email list example in [sensitive data leaks example](sqli-061c7a9483d440678438a747474b94bb.md) if the attacker send the following query
+    we will take for example the email list example in [sensitive data leaks example](./) if the attacker send the following query
 
     ```sql
     SELECT Title, Body FROM Emails
@@ -299,7 +303,7 @@ happen when attackers cannot directly extract information from the database beca
 
     similar to (Boolean based) but the visual clues about the query’s results doesn’t appear in the response Time based relies on on the response-time difference caused by different SQL injection payloads.
 
-    from the above [example](sqli-061c7a9483d440678438a747474b94bb.md) Let’s say premium members don’t get a special banner, and their user interfaces don’t look any different so we will depend on response-time difference
+    from the above [example](./) Let’s say premium members don’t get a special banner, and their user interfaces don’t look any different so we will depend on response-time difference
 
     For example, say you submit the following ID:
 
@@ -365,7 +369,7 @@ INTO OUTFILE '/var/www/html/output.txt'));-- ', 'vickie');
 
 Finally, you will find the password of the admin account stored into the output.txt file on the target server.
 
-[NoSQL Injection Vulnerability Prevention](sqli/nosql-injection-vulnerability-prevention-77e3214ea12d47029eb4c8fbc77cc0a4.md)
+[NoSQL Injection Vulnerability Prevention](/broken/pages/zPlsyVFuj2HfiWfLQW3m)
 
 ### Step 4: Look for NoSQL Injections
 
@@ -527,15 +531,15 @@ how SQL queries is executed
 
 When the SQL program arrives at the SQL server, the server will parse, compile, and optimize it. Finally, the server will execute the program and return the results of the execution :
 
-![first.png](../../.gitbook/assets/first.png)
+![first.png](../../../.gitbook/assets/first.png)
 
 and when you insert user-supplied input into your SQL queries the basically rewriting your program dynamically, using user input. An attacker can supply data that interferes with the program’s code and alter its logic
 
-![second.png](../../.gitbook/assets/second.png)
+![second.png](../../../.gitbook/assets/second.png)
 
 so here we can prevent it by using _**Prepared statements**_ it works by making sure that user-supplied data does not alter your SQL query’s logic. These SQL statements are sent to and compiled by the SQL server before any user-supplied parameters are inserted.
 
-![last.png](../../.gitbook/assets/last.png)
+![last.png](../../../.gitbook/assets/last.png)
 
 so these mean that before the user supply input the query was already compiled so
 

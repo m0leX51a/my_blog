@@ -1,8 +1,8 @@
-# File Upload vulnerabilities f6431feaecfa4a91bd1a9c3c2de72bb1
+# File Upload vulnerabilities
 
 ## File Upload vulnerabilities
 
-Tags: Done Status: Not started
+
 
 ## What is File Upload Vulnerabilities
 

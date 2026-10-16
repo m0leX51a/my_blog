@@ -1,8 +1,8 @@
-# LFI,LFD,PATH TRAVERSAL 9c8ef4f0f7334159a3683e59448b70cb
+# LFI,LFD,PATH TRAVERSAL
 
 ## LFI,LFD,PATH TRAVERSAL
 
-Tags: In progress Status: In progress
+
 
 ## local file inclusion
 
